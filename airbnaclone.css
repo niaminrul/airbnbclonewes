@@ -1,0 +1,478 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    width: 1500px;
+    
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    background-color: black;
+    width: 1700px;
+    height: 40px;
+}
+.header>a{
+    color: white;
+    text-decoration: underline;
+}
+
+.background{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image:url(/resorceairbnb/Background\ Image.webp);
+    background-size: 1700px;
+    width: 1700px;
+}
+.background-logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 1700px;
+    height: 80px;   
+}
+.airbnb-icon{
+    width: 344px;
+    height: 24px;
+    color: white;
+}
+
+.nav-text_center{
+    display: flex;
+    justify-content: space-around;
+    width: 344px;
+    height: 24px;
+}
+.nav-text_center>a>span{
+    color: white;
+}
+.nav-text_center>a{
+    text-decoration: none;
+}
+.nav-text_center>a:hover{
+    border-bottom:  1px solid white;
+}
+.nav-text_end{
+    display: flex;
+    justify-content: space-around;
+    width: 344px;
+    height: 24px;
+}
+.nav-text_end>a{
+    text-decoration: none;
+    color: white;
+}
+.nav-text_end>a:hover{
+    background-color: rgb(95, 140, 165);
+    border-radius: 30px;
+
+}
+.nav-button{
+    width: 77px;
+    height: 42px;
+    border-radius: 24px;
+    border: none;
+}
+
+.search-input{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+    width: 1000px;
+    height: 66px;
+}
+.location{  
+    width: 185px;
+    height: 38px;
+    border-right: 1px solid black;
+    color: black;
+}
+.text_location{
+    width:179px ;
+    height: 19px;
+    color: black;
+}
+
+.location:hover{
+    background-color: rgb(231, 231, 231);
+    border-radius: 30px;
+    width: 200px;
+    height: 60px;
+    border: none;
+}
+.Check-In{
+    width: 185px;
+    height: 38px;
+    border-right: 1px solid black;
+}
+.text_Check-In{
+    width:179px ;
+    height: 19px;
+    color: black;
+}
+.Check-In:hover{
+    background-color: rgb(231, 231, 231);
+    border-radius: 30px;
+    width: 200px;
+    height: 60px;
+    border: none;
+}
+
+
+.Check-out{
+    width: 185px;
+    height: 38px;
+    border-right: 1px solid black;
+}
+.text_Check-out{
+    width:179px ;
+    height: 19px;
+    color: black;
+}
+.Check-out:hover{
+    background-color: rgb(231, 231, 231);
+    border-radius: 30px;
+    width: 200px;
+    height: 60px;
+    border: none;
+}
+
+.Guests{
+    width: 185px;
+    height: 38px;
+}
+.text_guests{
+    width: 185px;
+    color: black;
+}
+.Guests:hover{
+    background-color: rgb(231, 231, 231);
+    border-radius: 30px;
+    width: 200px;
+    height: 60px;
+    border: none;
+}
+
+.button-search{
+    width: 44px;
+    height: 45px;
+    border-radius: 50px;
+    border: none;
+    background-color: rgb(250, 33, 91);
+}
+.button-search:hover{
+    cursor: pointer;
+    background-color:rgb(220, 14, 100);
+}
+input{
+    border: none;
+}
+a{
+    text-decoration: none;
+}
+.preface{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 1034px;
+    height: 625px;
+    margin-right: 400px;
+}
+.preface>span{
+    width: 400px;
+    height: 139px;
+    font-size: 50px;
+    color: white;
+}
+.btn-preface{
+    width: 155px;
+    height: 32px;
+    border-radius: 10px;
+    border: none;
+}
+.itim-quartor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 1589px;
+    height: 220px;
+    background-color: rgb(255, 255, 255);
+}
+.itim{
+    display: flex;
+    align-items: center;
+    width: 350px;
+    height: 70px;
+}
+.itim>img{
+   width: 70px;
+   height: 70px;
+   border-radius: 10px;
+}
+.text_itim{
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    width: 128px;
+    height: 19px;
+    margin-left: 15px;
+   
+}
+
+.accomoation{
+    display: flex;
+    justify-content: space-around;
+    width: 1400px;
+    height: 350px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.accomoation_text{
+    font-size: 32px;
+    margin-left: 90px;
+}
+
+.accomoation-item{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 411px;
+    margin-right: 100px;
+}
+.accomoation-item>img{
+    width: 300px;
+    height: 300px;
+    margin-left: 30px;
+    border-radius: 10px;
+}
+.accomoation-item>b{
+    margin-left: 30px;
+}
+.part-community{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1589px;
+    height: 735px;
+    background-color: black;
+}
+.uniqe{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    width: 1589px;
+    height: 55px;
+    margin-left: 50px;
+}
+.uniqe>b{
+    font-size: 32px;
+    color: white;
+}
+.uniqe>span{
+    font-size: 14px;
+    color: white;
+}
+.uniqe-backgroun{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1400px;
+    height: 560px;
+}
+.uiqe-itim{
+    display: flex;
+    flex-direction: column;
+}
+.uiqe-itim>img{
+    width: 450px;
+    height: 450px;
+    border-radius: 10px;
+}
+.uiqe-itim>b{
+    font-size: 18px;
+    color: white;
+
+}
+.uiqe-itim>span{
+    font-size: 12px;
+    color: white;
+}
+
+
+.Beapart{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1589px;
+    height: 500px;
+    border-bottom: 3px solid rgb(236, 236, 236);
+}
+.beapart-text{
+    display: flex;
+    align-items: center;
+    width: 1300px;
+    height: 50px;
+}
+.beapart-text>b{
+    font-size: 30px;
+    margin-left: 10px;
+}
+.beapart-itim{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1300px;
+    height: 400px;
+}
+.beapart-img>img{
+    width: 421px;
+    height: 300px;
+    border-radius: 10px;
+}
+.beapart-img{
+    display: flex;
+    flex-direction: column;
+    
+}
+.tim-quarter{
+    display: flex;
+    align-items: center;
+    width:1589px ;
+    height: 300px;
+    border-bottom: 1px solid rgb(217, 215, 215);
+
+}
+.introduce{
+    display: flex;
+    align-items: center;
+    width: 400px;
+    height: 250px;
+    
+}
+.introduce-itim{
+    display: flex;
+    flex-direction: column;
+    
+}
+.introduce-itim>li{
+    list-style: none;
+    font-size: 18px;
+}
+
+.introduce-itim>li>b{
+    font-size: 15px;
+}
+.introduce-itim>li>a:hover{
+    text-decoration: underline;
+}
+.community{
+    display: flex;
+    width: 400px;
+    height: 250px;
+    
+}
+.community-itim{
+    display: flex;
+    flex-direction: column;
+}
+
+.community-itim>li{
+    list-style: none;
+    font-size: 18px;
+}
+.community-itim>li>b{
+    font-size: 15px;
+}
+.community-itim>li>a:hover{
+    text-decoration: underline;
+}
+.tohost{
+    display: flex;
+    width: 400px;
+    height: 250px;
+
+}
+.tohost-itim{
+    display: flex;
+    flex-direction: column;
+}
+.tohost-itim>li{
+    list-style: none;
+    font-size: 18px;
+}
+.tohost-itim>li>b{
+    font-size: 15px;
+}
+.tohost-itim>li>a:hover{
+    text-decoration: underline;
+}
+a{
+    color: black;
+}
+
+.airbnbsupport{
+    display: flex;
+    width: 400px;
+    height: 250px;
+}
+.airbnbsupport-itim{
+    display: flex;
+    flex-direction: column;
+}
+.airbnbsupport-itim>li{
+    list-style: none;
+    font-size: 18px;
+}
+.airbnbsupport-itim>li>b{
+    font-size: 15px;
+}
+.airbnbsupport-itim>li>a:hover{
+    text-decoration: underline;
+}
+
+
+.container-footer{
+    display: flex;
+    align-items: center;
+    width: 1589px;
+    height: 40px;
+    border-top: 1px solid rgb(217, 215, 215);;
+   
+}
+.allrights{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    height: 40px;
+    margin-left: 30px;
+    
+}
+.allrights-logo{
+    display: flex;
+    justify-content: flex-end;
+    width: 400px;
+    height: 40px;
+
+}
+.allrights-social{
+    display: flex;
+    justify-content: flex-end;
+    width: 500px;
+    height: 40px;
+    
+}
+.logo-social>img{
+    width: 16px;
+    height: 16px;
+}
+
